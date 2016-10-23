@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://127.0.0.1:3188/Shiny_Final_Presentation.Rmd#1 -->
+<html class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <script type="application/shiny-singletons"></script>  <script type="application/html-dependencies">json2[2014.02.04];jquery[1.12.4];babel-polyfill[6.7.2];shiny[0.14.1]</script><script src="./index_files/json2-min.js"></script>
+<script src="./index_files/jquery.min.js"></script>
+<script src="./index_files/babel-polyfill.min.js"></script>
+<link href="./index_files/shiny.css" rel="stylesheet">
+<script src="./index_files/shiny.min.js"></script>  <script src="./index_files/rmd_loader.js"></script>
+  <link href="./index_files/rmd_loader.css" rel="stylesheet">
+
+<script src="./index_files/rsiframe.js"></script><meta name="0" content="[object Object]"><link rel="stylesheet" type="text/css" href="./index_files/bootstrap.min.css"><script src="./index_files/bootstrap.min.js"></script><script src="./index_files/html5shiv.min.js"></script><script src="./index_files/respond.min.js"></script><link rel="stylesheet" type="text/css" href="./index_files/rmd_perf.css"><script src="./index_files/rmd_perf.js"></script>
+  <title>Data Science Programs offered in the US</title>
+
+  
+  
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc">
+
+
+
+  <meta name="date" content="2016-12-10">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <link rel="stylesheet" media="all" href="./index_files/fonts.css">
+
+  <link rel="stylesheet" media="all" href="./index_files/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="./index_files/phone.css">
+
+  <!--<base target="_blank">--><base href="." target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'Data Science Programs offered in the US',
+                        useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                      },
+
+      // Author information
+      presenters: [
+            {
+        name:  'elobo' ,
+        company: '',
+        gplus: '',
+        twitter: '',
+        www: '',
+        github: ''
+      },
+            ]
+    };
+  </script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+
+  </style>
+
+
+
+<script type="text/javascript" src="./index_files/MathJax.js"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+<body class="loaded"><div id="MathJax_Message" style="display: none;"></div>
+  <div>
+    <div data-display-if="!output.__reactivedoc__" style="display: none;">
+      <div id="rmd_loader_wrapper">
+        <div id="rmd_loader">
+          <img src="./index_files/rmd_loader.gif">
+          <p>Loading</p>
+        </div>
+      </div>
+    </div>
+    <div id="__reactivedoc__" class="shiny-html-output shiny-bound-output">
+
+
+
+
+
+<slides>
+
+  <slide class="title-slide segue nobackground current" data-slide-num="1" data-total-slides="5">
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title="">Data Science Programs offered in the US</h1>
+      <h2 data-config-subtitle=""><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter="">elobo<br></p>
+            <p style="margin-top: 6px; margin-left: -2px;">22/10/2016</p>
+          </hgroup>
+  </slide>
+
+<slide class="next" data-slide-num="2" data-total-slides="5"><hgroup><h2>Synopsis</h2></hgroup><article id="synopsis">
+
+<p>This presentation wants to ilustrate a quick view on programs related to Data Science field offered by different schools along the Unated States.</p>
+
+<p>Dataset is available at Kaggle <a href="https://www.kaggle.com/sriharirao/datascience-universities-across-us" title="">link</a></p>
+
+</article></slide><slide class="far-next" data-slide-num="3" data-total-slides="5"><hgroup><h2>Overview of the app</h2></hgroup><article id="overview-of-the-app">
+
+<p>In order to use the app, the user must select which US State he is interested to check, and a summary of program registered by schools on that state will summarize into a bar plot. There is the possibily of chossing the type of program: Master or Certification degree.</p>
+
+<p>In order to inspect results, the info is distributed into three main panel.</p>
+
+<ul>
+<li>One panel for ginving general documentation</li>
+<li>Other panel to check the programs by shcools and</li>
+<li>A last panel to check program duration.</li>
+</ul>
+
+<p>Finally, a calculation showing the amount of programs given for that state is shown and the bottom of program panel.</p>
+
+</article></slide><slide class="" data-slide-num="4" data-total-slides="5"><hgroup><h2>Code book</h2></hgroup><article id="code-book">
+
+<pre class="prettyprint lang-r"><span class="pln">library</span><span class="pun">(</span><span class="pln">shiny</span><span class="pun">)</span><span class="pln">
+library</span><span class="pun">(</span><span class="pln">dplyr</span><span class="pun">)</span><span class="pln">
+library</span><span class="pun">(</span><span class="pln">ggplot2</span><span class="pun">)</span><span class="pln">
+
+data </span><span class="pun">&lt;-</span><span class="pln"> read.csv</span><span class="pun">(</span><span class="str">"/Users/elobo/HomeRstudio/Curso9/Shiny/DSuniversity/timesMergedData.csv"</span><span class="pun">)</span><span class="pln">
+</span><span class="com"># check cols with NA</span><span class="pln">
+        calc_NA </span><span class="pun">&lt;-</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(</span><span class="pln">x</span><span class="pun">){</span><span class="pln">sum</span><span class="pun">(</span><span class="pln">is.na</span><span class="pun">(</span><span class="pln">x</span><span class="pun">))/</span><span class="pln">length</span><span class="pun">(</span><span class="pln">x</span><span class="pun">)*</span><span class="lit">100</span><span class="pun">}</span><span class="pln">
+        check_NA </span><span class="pun">&lt;-</span><span class="pln"> as.data.frame</span><span class="pun">(</span><span class="pln">apply</span><span class="pun">(</span><span class="pln">data</span><span class="pun">,</span><span class="lit">2</span><span class="pun">,</span><span class="pln">calc_NA</span><span class="pun">))</span><span class="pln">
+</span><span class="com"># check with numbers</span><span class="pln">
+</span><span class="com"># table(check_NA[,1] &gt; 20.0)</span><span class="pln">
+</span><span class="com"># take off columns with NAs</span><span class="pln">
+        valid </span><span class="pun">&lt;-</span><span class="pln"> check_NA</span><span class="pun">[,</span><span class="lit">1</span><span class="pun">]</span><span class="pln"> </span><span class="pun">&gt;</span><span class="pln"> </span><span class="lit">20.0</span><span class="pln">
+        validnames </span><span class="pun">&lt;-</span><span class="pln"> rownames</span><span class="pun">(</span><span class="pln">check_NA</span><span class="pun">)[!</span><span class="pln">valid</span><span class="pun">]</span><span class="pln">
+
+finaldf </span><span class="pun">&lt;-</span><span class="pln"> data</span><span class="pun">[,</span><span class="pln">validnames</span><span class="pun">]</span><span class="pln">
+finaldf </span><span class="pun">&lt;-</span><span class="pln"> unique</span><span class="pun">(</span><span class="pln">finaldf</span><span class="pun">)</span><span class="pln">
+shinyApp</span><span class="pun">(</span><span class="pln">
+  ui </span><span class="pun">=</span><span class="pln"> fluidPage</span><span class="pun">(</span><span class="pln">
+        br</span><span class="pun">(),</span><span class="pln"> 
+        </span><span class="com"># Application title</span><span class="pln">
+        titlePanel</span><span class="pun">(</span><span class="str">"Data Science Program Offering in the US "</span><span class="pun">),</span><span class="pln">
+        br</span><span class="pun">(),</span><span class="pln">
+        </span><span class="com"># Sidebar with a slider input for number of bins </span><span class="pln">
+        sidebarLayout</span><span class="pun">(</span><span class="pln">
+                sidebarPanel</span><span class="pun">(</span><span class="pln">
+                        selectInput</span><span class="pun">(</span><span class="str">'text1'</span><span class="pun">,</span><span class="pln"> h3</span><span class="pun">(</span><span class="str">'Select a state'</span><span class="pun">),</span><span class="pln">  
+                                    choices </span><span class="pun">=</span><span class="pln"> unique</span><span class="pun">(</span><span class="pln">finaldf</span><span class="pun">$</span><span class="pln">STATE</span><span class="pun">[</span><span class="pln">order</span><span class="pun">(</span><span class="pln">finaldf</span><span class="pun">$</span><span class="pln">STATE</span><span class="pun">)]),</span><span class="pln">  
+                                    selected </span><span class="pun">=</span><span class="pln"> </span><span class="str">"California"</span><span class="pln">
+                                    </span><span class="pun">),</span><span class="pln">
+                        radioButtons</span><span class="pun">(</span><span class="str">'button1'</span><span class="pun">,</span><span class="pln"> h3</span><span class="pun">(</span><span class="str">'Define type of Program'</span><span class="pun">),</span><span class="pln">  
+                                     choices </span><span class="pun">=</span><span class="pln"> unique</span><span class="pun">(</span><span class="pln">finaldf</span><span class="pun">$</span><span class="pln">TYPE</span><span class="pun">),</span><span class="pln">  
+                                     selected </span><span class="pun">=</span><span class="pln"> </span><span class="str">"M"</span><span class="pln">
+                                     </span><span class="pun">)</span><span class="pln">
+                </span><span class="pun">),</span><span class="pln">
+                
+                </span><span class="com"># Show a plot of the generated distribution</span><span class="pln">
+                mainPanel</span><span class="pun">(</span><span class="pln">
+                        tabsetPanel</span><span class="pun">(</span><span class="pln">
+                                tabPanel</span><span class="pun">(</span><span class="str">"Documentation"</span><span class="pun">,</span><span class="pln">
+                                        helpText</span><span class="pun">(</span><span class="pln">br</span><span class="pun">(),</span><span class="str">"Nowadays popularity on data manipulation, analysis and insight findings from data has been"</span><span class="pun">,</span><span class="pln">
+                                        </span><span class="str">"taking more adepts. "</span><span class="pun">,</span><span class="pln">
+                                        </span><span class="str">"Most univertities and colleges are now caring about this need by giving options on different disciplines to"</span><span class="pun">,</span><span class="pln">
+                                        </span><span class="str">" provide deep knowledge for improving these skills."</span><span class="pun">,</span><span class="pln">
+                                        br</span><span class="pun">(),</span><span class="pln">br</span><span class="pun">(),</span><span class="str">"This shiny app is intended to show a general overview about what is the current program offer on"</span><span class="pun">,</span><span class="pln">
+                                        </span><span class="str">"Data Science for those who want to have an initial aprroach on this field  by checking which options are"</span><span class="pun">,</span><span class="pln">
+                                        </span><span class="str">" available for a particular state along the US territory. From the input dataset, based on the user selection "</span><span class="pun">,</span><span class="pln">
+                                        </span><span class="str">"results are shown pointing program type and name, as well as duration in terms of program structure."</span><span class="pun">,</span><span class="pln">
+                                        br</span><span class="pun">(),</span><span class="pln">br</span><span class="pun">(),</span><span class="str">"The app is designed to divide the main panel into two tabs, according to the to kind of information "</span><span class="pun">,</span><span class="pln">
+                                        </span><span class="str">"for the visual overview."</span><span class="pun">,</span><span class="pln">
+                                        br</span><span class="pun">(),</span><span class="pln">br</span><span class="pun">(),</span><span class="str">"First tab there will be the program name offered by the school, on the other tab the duration,"</span><span class="pun">,</span><span class="pln">
+                                        </span><span class="str">"The only action required by user will be to choose a target state in which he is interested to see the "</span><span class="pun">,</span><span class="pln">
+                                        </span><span class="str">"program offer."</span><span class="pun">,</span><span class="pln">
+                                        br</span><span class="pun">(),</span><span class="pln">br</span><span class="pun">(),</span><span class="str">"Finally, there is also an option in which the user may choose by which type of program the "</span><span class="pln">
+                                        </span><span class="pun">,</span><span class="str">"particular school is giving, so by selecting M from the buttom box a selection of Master Programs will "</span><span class="pun">,</span><span class="pln">
+                                        </span><span class="str">"delimit the search, same way by selecting option C for Certification Programs. "</span><span class="pln">
+                                         </span><span class="pun">)</span><span class="pln">
+                                </span><span class="pun">),</span><span class="pln">
+                                tabPanel</span><span class="pun">(</span><span class="str">"Programs by School"</span><span class="pun">,</span><span class="pln">
+                                         br</span><span class="pun">(),</span><span class="pln">br</span><span class="pun">(),</span><span class="pln">
+                                         plotOutput</span><span class="pun">(</span><span class="str">"distPlot1"</span><span class="pun">,</span><span class="pln"> height </span><span class="pun">=</span><span class="pln"> </span><span class="str">"500px"</span><span class="pun">),</span><span class="pln">
+                                         br</span><span class="pun">(),</span><span class="pln">
+                                         </span><span class="com">#textOutput("text1", h3("Total programs found"))</span><span class="pln">
+                                         fluidRow</span><span class="pun">(</span><span class="pln">column</span><span class="pun">(</span><span class="lit">3</span><span class="pun">,</span><span class="pln"> textOutput</span><span class="pun">(</span><span class="str">"text1"</span><span class="pun">))),</span><span class="pln">
+                                         br</span><span class="pun">()</span><span class="pln">
+                                </span><span class="pun">),</span><span class="pln">
+                                tabPanel</span><span class="pun">(</span><span class="str">"Program Duration"</span><span class="pun">,</span><span class="pln">
+                                         br</span><span class="pun">(),</span><span class="pln">br</span><span class="pun">(),</span><span class="pln">
+                                         plotOutput</span><span class="pun">(</span><span class="str">"distPlot2"</span><span class="pun">,</span><span class="pln"> height </span><span class="pun">=</span><span class="pln"> </span><span class="str">"800px"</span><span class="pun">)</span><span class="pln">
+                                        
+                                </span><span class="pun">)</span><span class="pln">
+                        </span><span class="pun">)</span><span class="pln">
+      
+                </span><span class="pun">)</span><span class="pln">
+        </span><span class="pun">)</span><span class="pln">
+</span><span class="pun">),</span><span class="pln">
+  server </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">function</span><span class="pun">(</span><span class="pln">input</span><span class="pun">,</span><span class="pln"> output</span><span class="pun">)</span><span class="pln"> </span><span class="pun">{</span><span class="pln">
+        dataset </span><span class="pun">&lt;-</span><span class="pln"> reactive</span><span class="pun">({</span><span class="pln">
+                        finaldf </span><span class="pun">%&gt;%</span><span class="pln"> filter</span><span class="pun">(</span><span class="pln">STATE</span><span class="pun">==</span><span class="pln">input</span><span class="pun">$</span><span class="pln">text1</span><span class="pun">,</span><span class="pln"> TYPE</span><span class="pun">==</span><span class="pln">input</span><span class="pun">$</span><span class="pln">button1</span><span class="pun">)</span><span class="pln">
+        </span><span class="pun">})</span><span class="pln">
+        
+        output</span><span class="pun">$</span><span class="pln">distPlot1 </span><span class="pun">&lt;-</span><span class="pln"> renderPlot</span><span class="pun">({</span><span class="pln">
+
+                G1 </span><span class="pun">&lt;-</span><span class="pln"> ggplot</span><span class="pun">(</span><span class="pln">data</span><span class="pun">=</span><span class="pln">dataset</span><span class="pun">(),</span><span class="pln"> aes</span><span class="pun">(</span><span class="pln">x</span><span class="pun">=</span><span class="pln">PROGRAM</span><span class="pun">))</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> geom_bar</span><span class="pun">(</span><span class="pln">aes</span><span class="pun">(</span><span class="pln">fill</span><span class="pun">=</span><span class="pln">SCHOOL</span><span class="pun">),</span><span class="pln"> alpha</span><span class="pun">=</span><span class="lit">0.8</span><span class="pun">)</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> coord_flip</span><span class="pun">()</span><span class="pln">
+                        theme</span><span class="pun">(</span><span class="pln">axis.text.x </span><span class="pun">=</span><span class="pln"> element_text</span><span class="pun">(</span><span class="pln">angle </span><span class="pun">=</span><span class="pln"> </span><span class="lit">90</span><span class="pun">,</span><span class="pln"> hjust </span><span class="pun">=</span><span class="pln"> </span><span class="lit">1</span><span class="pun">),</span><span class="pln"> legend.position</span><span class="pun">=</span><span class="str">"bottom"</span><span class="pun">)</span><span class="pln"> 
+                
+                G1
+        </span><span class="pun">})</span><span class="pln">
+        
+        output</span><span class="pun">$</span><span class="pln">distPlot2 </span><span class="pun">&lt;-</span><span class="pln"> renderPlot</span><span class="pun">({</span><span class="pln">
+
+                G2 </span><span class="pun">&lt;-</span><span class="pln"> ggplot</span><span class="pun">(</span><span class="pln">data</span><span class="pun">=</span><span class="pln">dataset</span><span class="pun">(),</span><span class="pln"> aes</span><span class="pun">(</span><span class="pln">x</span><span class="pun">=</span><span class="pln">PROGRAM</span><span class="pun">,</span><span class="pln"> colour</span><span class="pun">=</span><span class="pln">SCHOOL</span><span class="pun">))</span><span class="pln"> </span><span class="pun">+</span><span class="pln"> geom_point</span><span class="pun">(</span><span class="pln">aes</span><span class="pun">(</span><span class="pln">y</span><span class="pun">=</span><span class="pln">DURATION</span><span class="pun">),</span><span class="pln"> alpha</span><span class="pun">=</span><span class="lit">0.8</span><span class="pun">,</span><span class="pln"> size</span><span class="pun">=</span><span class="lit">4</span><span class="pun">)</span><span class="pln"> </span><span class="pun">+</span><span class="pln">
+                        theme_bw</span><span class="pun">()</span><span class="pln"> </span><span class="pun">+</span><span class="pln">
+                        theme</span><span class="pun">(</span><span class="pln">axis.text.x </span><span class="pun">=</span><span class="pln"> element_text</span><span class="pun">(</span><span class="pln">angle </span><span class="pun">=</span><span class="pln"> </span><span class="lit">45</span><span class="pun">,</span><span class="pln"> hjust </span><span class="pun">=</span><span class="pln"> </span><span class="lit">1</span><span class="pun">),</span><span class="pln"> legend.position</span><span class="pun">=</span><span class="str">"bottom"</span><span class="pun">)</span><span class="pln">
+                
+                G2
+        </span><span class="pun">})</span><span class="pln">
+        
+        schoolcount </span><span class="pun">&lt;-</span><span class="pln"> reactive</span><span class="pun">({</span><span class="pln">
+                finaldf </span><span class="pun">%&gt;%</span><span class="pln"> filter</span><span class="pun">(</span><span class="pln">TYPE</span><span class="pun">==</span><span class="pln">input</span><span class="pun">$</span><span class="pln">button1</span><span class="pun">,</span><span class="pln"> STATE</span><span class="pun">==</span><span class="pln">input</span><span class="pun">$</span><span class="pln">text1</span><span class="pun">)</span><span class="pln"> </span><span class="pun">%&gt;%</span><span class="pln"> select</span><span class="pun">(</span><span class="pln">PROGRAM</span><span class="pun">)</span><span class="pln"> </span><span class="pun">%&gt;%</span><span class="pln"> count</span><span class="pun">()</span><span class="pln">
+        </span><span class="pun">})</span><span class="pln">
+        
+        output</span><span class="pun">$</span><span class="pln">text1 </span><span class="pun">&lt;-</span><span class="pln"> renderText</span><span class="pun">({</span><span class="pln"> paste</span><span class="pun">(</span><span class="str">"Number of programs: "</span><span class="pun">,</span><span class="pln"> as.character</span><span class="pun">(</span><span class="pln">schoolcount</span><span class="pun">()))</span><span class="pln">   </span><span class="pun">})</span><span class="pln">
+
+  </span><span class="pun">},</span><span class="pln">
+  
+  options </span><span class="pun">=</span><span class="pln"> list</span><span class="pun">(</span><span class="pln">height </span><span class="pun">=</span><span class="pln"> </span><span class="lit">500</span><span class="pun">)</span><span class="pln">
+</span><span class="pun">)</span></pre>
+
+</article></slide><slide class="" data-slide-num="5" data-total-slides="5"><hgroup><h2>Shiny APP</h2></hgroup><article id="shiny-app">
+
+<iframe width="100%" height="500" class="shiny-frame" src="./index_files/saved_resource.html"></iframe></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+<div class="slide-area" id="prev-slide-area"></div><div class="slide-area" id="next-slide-area"></div></slides>
+
+<script src="./index_files/modernizr.custom.45394.js"></script>
+<script src="./index_files/prettify.js"></script>
+<script src="./index_files/lang-r.js"></script>
+<script src="./index_files/lang-yaml.js"></script>
+<script src="./index_files/hammer.js"></script>
+<script src="./index_files/slide-controller.js"></script>
+<script src="./index_files/slide-deck.js"></script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+</div>
+  </div>
+
+
+
+</body></html>
